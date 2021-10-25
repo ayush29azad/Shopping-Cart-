@@ -1,6 +1,6 @@
 import React from 'react';
 import CartItem from './CartItem'
-
+import Cart from './Cart'
 
 
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>CART</h1>
-        <CartItem/>
+        <Cart/>
       </header>
     </div>
   );
