@@ -33,8 +33,8 @@ const CartItem = (props) => {
                 <img style={styles.image} src ={product.img} />
             </div>
             <div className="right-block">
-                <div style={{ fontSize: 25 }}>{price}</div>
-                <div style={{ color: '#777' }}> ₹ {title} </div>
+                <div style={{ fontSize: 25 }}>₹{price}</div>
+                <div style={{ color: '#777' }}>  {title} </div>
                 <div style={{ color: '#777' }}>Qty:{qty}</div>
                 <div className="cart-item-actions">
                     <img alt="increase" className="action-icons" src="https://cdn-icons-png.flaticon.com/512/983/983952.png" onClick={() => onIncreaseQuantity(product)} ></img>
